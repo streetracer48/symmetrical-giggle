@@ -24,7 +24,7 @@ import {
       };
   
       dispatch(fetchBreedsInit())
-      const url = breed ? `https://breedscat.herokuapp.com/api/v1/breeds?name=${breed}` : 'https://­breedscat.herokuapp.c­om/api/v1/breed';
+      const url = breed ? `https://breedscat.herokuapp.com/api/v1/breeds?name=${breed}` : 'https://­breedscat.herokuapp.c­om/api/v1/breeds';
       const res = await axios.get(url, config);
       console.log(res)
       dispatch({
