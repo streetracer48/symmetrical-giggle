@@ -6,6 +6,7 @@ import Navbar from './layouts/Navbar'
 import Breeds from './layouts/Breeds'
 import  SearchArea from './layouts/SearchArea'
 
+
 class App extends Component {
   render() {
 
@@ -14,6 +15,7 @@ class App extends Component {
       <Router>
         <Fragment>
           <Navbar />
+  
           <Route path="/" exact component={ SearchArea }/>
           <Route path="/" exact component={ Breeds }/>
            

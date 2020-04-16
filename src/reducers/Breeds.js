@@ -1,9 +1,9 @@
-import axios from 'axios';
 
 import {
     FETCH_BREEDS_INIT,
     FETCH_BREEDS_SUCCESS,
-    FETCH_FAIL
+    FETCH_FAIL,
+    FETCH_BREED_BY_ID
   } from '../actions/types';
 const initialState = {
   breed: {},
@@ -28,6 +28,12 @@ export default function(state = initialState, action) {
           breeds: payload,
           loading: false
         };
+        case FETCH_BREED_BY_ID:
+            return {
+              ...state,
+              breed: payload,
+              loading: false
+            };
       case FETCH_FAIL:
         return {
           ...state,
