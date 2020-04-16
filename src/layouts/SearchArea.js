@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import SearchInput from '../common/SearchInput'
 const SearchArea = () => {
   return (

@@ -1,4 +1,4 @@
-import React, { Fragment, Component } from 'react';
+import React, { Component } from 'react';
 import {connect} from 'react-redux'
 import { getbreedById } from '../actions/actions';
 import Loading from '../common/loading'
