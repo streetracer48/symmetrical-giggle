@@ -1,6 +1,7 @@
 import React, { Fragment, Component } from 'react';
 import {connect} from 'react-redux'
 import { getbreedById } from '../actions/actions';
+import Loading from '../common/loading'
 class breedDetails extends Component {
     componentDidMount() {
         this.props.getbreedById(this.props.match.params.id);
@@ -12,7 +13,7 @@ class breedDetails extends Component {
         let breedContent;
 
         if (breed === null ||  loading) {
-            breedContent = ''
+            breedContent = <Loading/>
         } else {
           
             breedContent = (<div className="col-md-6">

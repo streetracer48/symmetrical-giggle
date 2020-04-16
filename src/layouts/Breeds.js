@@ -2,6 +2,7 @@ import React, { Fragment, Component } from 'react';
 import { connect } from 'react-redux';
 import { getbreeds } from '../actions/actions';
 import BreedFeed from '../components/breedFeed'
+import Loading from '../common/loading'
 
 class Breeds extends Component { 
 
@@ -15,7 +16,7 @@ class Breeds extends Component {
         let breedsContent;
 
         if (breeds === null && loading) {
-            breedsContent = '';
+            breedsContent = <Loading/>;
         } else {
           if (breeds && breeds.length > 0) {
             breedsContent = <BreedFeed breeds={breeds} />;
