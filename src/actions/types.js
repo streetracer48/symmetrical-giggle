@@ -1,0 +1,1 @@
+export const FETCH_BREEDS_INIT = 'FETCH_BREEDS_INIT'
