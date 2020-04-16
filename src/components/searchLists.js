@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { getbreeds } from '../actions/actions';
 import { connect } from 'react-redux';
 import BreedFeed from '../components/breedFeed'
+import Loading from '../common/loading'
 class SearchLists extends Component {
 
     state = {
@@ -37,7 +38,7 @@ class SearchLists extends Component {
     let title = '';
 
         if (breeds === null && loading) {
-            breedsContent = '';
+            breedsContent = <Loading/>;
         } else {
           if (breeds && breeds.length > 0) {
              title = `searchedBreed`;
