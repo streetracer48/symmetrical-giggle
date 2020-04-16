@@ -7,6 +7,7 @@ import Breeds from './layouts/Breeds'
 import  SearchArea from './layouts/SearchArea'
 import BreedDetails from './components/breedDetails'
 import BreedsSearchLists from './components/searchLists'
+import Alert from './common/createAlert'
 
 class App extends Component {
   render() {
@@ -15,8 +16,9 @@ class App extends Component {
       <div className="App">
       <Router>
         <Fragment>
+         
           <Navbar />
-  
+          <Alert/>
           <Route path="/" exact component={ SearchArea }/>
           <Route path="/" exact component={ Breeds }/>
           <Switch>

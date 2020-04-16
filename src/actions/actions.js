@@ -6,6 +6,7 @@ import {
     FETCH_FAIL,
     FETCH_BREED_BY_ID
   } from './types';
+  import {createAlert} from './createAlert'
 
   const fetchBreedsInit = () => {
     return {
@@ -23,7 +24,7 @@ import {
       };
   
       dispatch(fetchBreedsInit())
-      const url = breed ? `https://breedscat.herokuapp.com/api/v1/breeds?name=${breed}` : 'https://­breedscat.herokuapp.c­om/api/v1/breeds';
+      const url = breed ? `https://breedscat.herokuapp.com/api/v1/breeds?name=${breed}` : 'https://­breedscat.herokuapp.c­om/api/v1/breed';
       const res = await axios.get(url, config);
       console.log(res)
       dispatch({
@@ -31,7 +32,7 @@ import {
         payload: res.data
       });
     } catch (err) {
-  
+        dispatch(createAlert('Something went wrong', "danger"))
       dispatch({
         type: FETCH_FAIL,
         payload: err
@@ -54,7 +55,7 @@ import {
         payload: res.data
       });
     } catch (error) {
-    console.log(error)
+        dispatch(createAlert('Something went wrong', "danger"))
   
       dispatch({
         type: FETCH_FAIL,
