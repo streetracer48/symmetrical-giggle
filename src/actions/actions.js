@@ -8,6 +8,8 @@ import {
   } from './types';
   import {createAlert} from './createAlert'
 
+
+  
   const fetchBreedsInit = () => {
     return {
       type: FETCH_BREEDS_INIT
@@ -32,7 +34,7 @@ import {
         payload: res.data
       });
     } catch (err) {
-        dispatch(createAlert('Something went wrong', "danger"))
+       
       dispatch({
         type: FETCH_FAIL,
         payload: err

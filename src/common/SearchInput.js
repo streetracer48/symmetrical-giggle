@@ -26,7 +26,7 @@ class BreedsSearchInput extends Component {
   render() {
     return (
         <div className="input-group mt-5">
-        <input type="search"  className="form-control" placeholder="Search your breeds"  aria-label='Search' onKeyPress={(event) => { this.handleKeyPress(event)}}
+        <input type="search"  className="form-control" placeholder="Search by Name"  aria-label='Search' onKeyPress={(event) => { this.handleKeyPress(event)}}
                ref={this.searchInput}/>
         <div className="input-group-append" >
             <button onClick={() => {this.handleSearch()}} className="btn btn-outline-secondary" type='submit'>Search</button>
