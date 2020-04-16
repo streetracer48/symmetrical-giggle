@@ -5,7 +5,7 @@ import './App.css';
 import Navbar from './layouts/Navbar'
 import Breeds from './layouts/Breeds'
 import  SearchArea from './layouts/SearchArea'
-
+import BreedDetails from './components/breedDetails'
 
 class App extends Component {
   render() {
@@ -18,6 +18,13 @@ class App extends Component {
   
           <Route path="/" exact component={ SearchArea }/>
           <Route path="/" exact component={ Breeds }/>
+          <Switch>
+              
+              <Route exact path="/breeds" component={ Breeds } />
+              <Route exact path="/breed-details/:id" component={BreedDetails} />
+              
+            </Switch>
+       
            
           </Fragment>
           </Router>
