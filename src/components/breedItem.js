@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
     <h5 className="card-title">Origin:{breed.origin}</h5>
     <h5 className="card-title">Temperament:{breed.temperament}</h5>
                
-                <Link to='' className="btn btn-info mr-1">
+                <Link to={`/breed-details/${breed._id}`} className="btn btn-info mr-1">
                   Details
                 </Link>
 

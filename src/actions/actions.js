@@ -3,7 +3,8 @@ import axios from 'axios'
 import {
     FETCH_BREEDS_INIT,
     FETCH_BREEDS_SUCCESS,
-    FETCH_FAIL
+    FETCH_FAIL,
+    FETCH_BREED_BY_ID
   } from './types';
 
   const fetchBreedsInit = () => {
@@ -38,3 +39,26 @@ import {
     }
   }
   
+  export const getbreedById = id => async dispatch => {
+    try {
+      const config = {
+        headers: {
+          "Content-Type": "application/json"
+        }
+      };
+  
+      dispatch(fetchBreedsInit());
+      const res = await axios.get(`https://­breedscat.herokuapp.c­om/api/v1/breeds/${id}`, config);
+      dispatch({
+        type: FETCH_BREED_BY_ID,
+        payload: res.data
+      });
+    } catch (error) {
+    console.log(error)
+  
+      dispatch({
+        type: FETCH_FAIL,
+        payload: error
+      });
+    }
+  };
