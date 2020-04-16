@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/symmetrical-giggle/static/css/main.5d6d484c.chunk.css",
+    "main.js": "/symmetrical-giggle/static/js/main.f80869bb.chunk.js",
+    "main.js.map": "/symmetrical-giggle/static/js/main.f80869bb.chunk.js.map",
+    "runtime-main.js": "/symmetrical-giggle/static/js/runtime-main.4e63a8cb.js",
+    "runtime-main.js.map": "/symmetrical-giggle/static/js/runtime-main.4e63a8cb.js.map",
+    "static/js/2.0af82f44.chunk.js": "/symmetrical-giggle/static/js/2.0af82f44.chunk.js",
+    "static/js/2.0af82f44.chunk.js.map": "/symmetrical-giggle/static/js/2.0af82f44.chunk.js.map",
+    "index.html": "/symmetrical-giggle/index.html",
+    "precache-manifest.17f17d6d1164efc260d2c69690e457e5.js": "/symmetrical-giggle/precache-manifest.17f17d6d1164efc260d2c69690e457e5.js",
+    "service-worker.js": "/symmetrical-giggle/service-worker.js",
+    "static/css/main.5d6d484c.chunk.css.map": "/symmetrical-giggle/static/css/main.5d6d484c.chunk.css.map",
+    "static/js/2.0af82f44.chunk.js.LICENSE.txt": "/symmetrical-giggle/static/js/2.0af82f44.chunk.js.LICENSE.txt",
+    "static/media/spinner.gif": "/symmetrical-giggle/static/media/spinner.ac447129.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e63a8cb.js",
+    "static/js/2.0af82f44.chunk.js",
+    "static/css/main.5d6d484c.chunk.css",
+    "static/js/main.f80869bb.chunk.js"
+  ]
+}
