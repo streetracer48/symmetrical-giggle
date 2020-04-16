@@ -6,6 +6,7 @@ import Navbar from './layouts/Navbar'
 import Breeds from './layouts/Breeds'
 import  SearchArea from './layouts/SearchArea'
 import BreedDetails from './components/breedDetails'
+import BreedsSearchLists from './components/searchLists'
 
 class App extends Component {
   render() {
@@ -22,6 +23,7 @@ class App extends Component {
               
               <Route exact path="/breeds" component={ Breeds } />
               <Route exact path="/breed-details/:id" component={BreedDetails} />
+              <Route exact path="/breed/:breed" component={BreedsSearchLists} />
               
             </Switch>
        
