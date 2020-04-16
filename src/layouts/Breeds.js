@@ -1,8 +1,16 @@
 import React, { Fragment, Component } from 'react';
+import { connect } from 'react-redux';
+import { getbreeds } from '../actions/actions';
 
 class Breeds extends Component { 
 
+    componentDidMount() {
+        this.props.dispatch(getbreeds())
+    }
+
     render() {
+
+        console.log(this.props.items)
       
         return (
             <section className="hero-section pt-5 pb-5">
@@ -21,6 +29,9 @@ class Breeds extends Component {
   
 };
 
+const mapStateToProps = state => ({
+    items: state.breedsCat
+  });
 
 
-export default Breeds;
+export default connect(mapStateToProps)(Breeds);
