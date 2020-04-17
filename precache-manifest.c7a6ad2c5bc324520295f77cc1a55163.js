@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e513a193188c35cccaf2ab6bcbe0097d",
+    "revision": "98221672a62bc3e73893b2106026c267",
     "url": "/symmetrical-giggle/index.html"
   },
   {
-    "revision": "612bb3b24276eb04a2b0",
+    "revision": "badd330da4b47b571895",
     "url": "/symmetrical-giggle/static/css/main.5d6d484c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/symmetrical-giggle/static/js/2.0af82f44.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "612bb3b24276eb04a2b0",
-    "url": "/symmetrical-giggle/static/js/main.24579ec5.chunk.js"
+    "revision": "badd330da4b47b571895",
+    "url": "/symmetrical-giggle/static/js/main.13189714.chunk.js"
   },
   {
     "revision": "b18e8335cddc6c9ed421",
