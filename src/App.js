@@ -19,8 +19,9 @@ class App extends Component {
          
           <Navbar />
           <Alert/>
-          <SearchArea/>
-          <Breeds/>
+           
+            <Route exact path="/symmetrical-giggle" component={ SearchArea } />
+           <Route exact path="/symmetrical-giggle" component={ Breeds } />
           <Switch>
               
               <Route exact path="/breeds" component={ Breeds } />
