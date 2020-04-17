@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/symmetrical-giggle/static/css/main.5d6d484c.chunk.css",
-    "main.js": "/symmetrical-giggle/static/js/main.13189714.chunk.js",
-    "main.js.map": "/symmetrical-giggle/static/js/main.13189714.chunk.js.map",
+    "main.js": "/symmetrical-giggle/static/js/main.398da3b9.chunk.js",
+    "main.js.map": "/symmetrical-giggle/static/js/main.398da3b9.chunk.js.map",
     "runtime-main.js": "/symmetrical-giggle/static/js/runtime-main.4e63a8cb.js",
     "runtime-main.js.map": "/symmetrical-giggle/static/js/runtime-main.4e63a8cb.js.map",
     "static/js/2.0af82f44.chunk.js": "/symmetrical-giggle/static/js/2.0af82f44.chunk.js",
     "static/js/2.0af82f44.chunk.js.map": "/symmetrical-giggle/static/js/2.0af82f44.chunk.js.map",
     "index.html": "/symmetrical-giggle/index.html",
-    "precache-manifest.c7a6ad2c5bc324520295f77cc1a55163.js": "/symmetrical-giggle/precache-manifest.c7a6ad2c5bc324520295f77cc1a55163.js",
+    "precache-manifest.215f3aae09c0d0bec064df56f5885e92.js": "/symmetrical-giggle/precache-manifest.215f3aae09c0d0bec064df56f5885e92.js",
     "service-worker.js": "/symmetrical-giggle/service-worker.js",
     "static/css/main.5d6d484c.chunk.css.map": "/symmetrical-giggle/static/css/main.5d6d484c.chunk.css.map",
     "static/js/2.0af82f44.chunk.js.LICENSE.txt": "/symmetrical-giggle/static/js/2.0af82f44.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.4e63a8cb.js",
     "static/js/2.0af82f44.chunk.js",
     "static/css/main.5d6d484c.chunk.css",
-    "static/js/main.13189714.chunk.js"
+    "static/js/main.398da3b9.chunk.js"
   ]
 }
