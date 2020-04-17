@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/symmetrical-giggle/precache-manifest.215f3aae09c0d0bec064df56f5885e92.js"
+  "/symmetrical-giggle/precache-manifest.4d8ca3be499a8d9a47aca4486a249ff9.js"
 );
 
 self.addEventListener('message', (event) => {
