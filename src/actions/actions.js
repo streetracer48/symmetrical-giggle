@@ -34,7 +34,6 @@ import {
         payload: res.data
       });
     } catch (err) {
-       
       dispatch({
         type: FETCH_FAIL,
         payload: err
