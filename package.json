@@ -8,6 +8,8 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
+    "gh-pages": "^2.2.0",
+    "lower-case": "^2.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
@@ -16,8 +18,7 @@
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
     "titleize": "^2.1.0",
-    "uuid": "^3.3.3",
-    "gh-pages": "^2.2.0"
+    "uuid": "^3.3.3"
   },
   "scripts": {
     "start": "react-scripts start",

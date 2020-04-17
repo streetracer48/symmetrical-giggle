@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import { withRouter } from 'react-router-dom';
+import {toLowerCase} from '../common/helpers'
 
 class BreedsSearchInput extends Component {
 
@@ -17,7 +18,9 @@ class BreedsSearchInput extends Component {
 
   handleSearch() {
     const { history } = this.props;
-    const breed = this.searchInput.current.value;
+    
+    const breed =  `${toLowerCase(this.searchInput.current.value)}`
+   
 
     breed ? history.push(`/breed/${breed}`) : history.push('/');
   }
