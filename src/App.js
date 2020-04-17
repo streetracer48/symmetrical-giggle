@@ -19,8 +19,8 @@ class App extends Component {
          
           <Navbar />
           <Alert/>
-          <Route path="" exact component={ SearchArea }/>
-          <Route path="" exact component={ Breeds }/>
+          <SearchArea/>
+          <Breeds/>
           <Switch>
               
               <Route exact path="/breeds" component={ Breeds } />
