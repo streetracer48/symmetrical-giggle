@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom';
       const {breed} = this.props
      
     return (
-      <div className="col-md-3" >
+      <div className="col-md-3 mt-5" >
         <div className="card">
             <div className="card-body">
-    <h3 className="card-title">{breed.name}</h3>
+    <h5 className="card-title">{breed.name}</h5>
     <h5 className="card-title">Origin:{breed.origin}</h5>
     <h5 className="card-title">Temperament:{breed.temperament}</h5>
                

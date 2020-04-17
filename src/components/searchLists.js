@@ -3,7 +3,7 @@ import { getbreeds } from '../actions/actions';
 import { connect } from 'react-redux';
 import BreedFeed from '../components/breedFeed'
 import Loading from '../common/loading'
-import { toUpperCase } from '../common/toUpercase';
+import { toUpperCase } from '../common/helpers';
 class SearchLists extends Component {
 
     state = {
@@ -52,7 +52,7 @@ class SearchLists extends Component {
         <section className="hero-section pt-5 pb-5">
         <div className="container">
     <h3 className="text-center mb-5 ">Browse {title} Breeds</h3>
-            <div className="row justify-content-center mt-3">
+            <div className="row justify-content-center mt-5">
                 {breedsContent}
             </div>
         </div>
